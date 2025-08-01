@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario SENA V1</title>
+  <link rel="stylesheet" href="/CSS/estilos.css">
+</head>
+<body>
+  <h1>FORMULARIO SENA V1</h1>
+  <h2>GRACIAS POR DEJAR SUS DATOS</h2>
+
+  <form id="senaForm">
+    <label>Nombre</label>
+    <input type="text" placeholder="Por favor ingrese su nombre" required>
+
+    <label>Email</label>
+    <input type="email" placeholder="Por favor ingrese su  email" required>
+
+    <label>Edad</label>
+    <input type="number" placeholder="Por favor ingrese su edad " required>
+
+    <label>Seleccione una opcion</label>
+    <select required>
+      <option value="">Opciones</option>
+      <option value="Option 1">Option 1</option>
+      <option value="Option 2">Option 2</option>
+    </select>
+
+    <label>Planeas comprar una moto en 5 años?</label>
+    <div class="radio-group">
+      <label><input type="radio" name="planToBuyCar" value="Yes" required> Shi </label>
+      <label><input type="radio" name="planToBuyCar" value="No"> No</label>
+      <label><input type="radio" name="planToBuyCar" value="Maybe"> Talvez </label>
+    </div>
+
+    <label>Cual es la marca de la moto favorita?</label>
+    <select required>
+      <option value="">Select One Option</option>
+      <option value="Yamaha">Yamaha</option>
+      <option value="AKT">AKT</option>
+      <option value="Suzuki">Suzuki</option>
+    </select>
+
+    <label>Que tipo de tranposte tienes my rey ?</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" value="Carro"> Carro</label>
+      <label><input type="checkbox" value="Barco"> Barco</label>
+      <label><input type="checkbox" value="Bicicleta"> Bicicleta</label>
+      <label><input type="checkbox" value="Moto"> Moto</label>
+      <label><input type="checkbox" value="Avion"> Avion </label>
+    </div>
+
+    <label>Alguna sugerencia deja aqui ?</label>
+    <textarea placeholder="Por favor deja tus comentarios"></textarea>
+
+    <button type="Enviar">Enviar</button>
+  </form>
+
+  <script src="validacion.js"></script>
+</body>
+</html>
