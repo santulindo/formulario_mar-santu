@@ -47,6 +47,23 @@ textarea {
   background-color: #bbf5a0;
   color: rgb(0, 0, 0);
 }
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background-color: #969696;
+  padding: 2em;
+  border-radius: o.5em;
+  text-align: center;
+}
 
 textarea {
   height: 80px;
